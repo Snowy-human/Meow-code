@@ -1,3 +1,6 @@
 import meow
 input = input()
-print(meow.encode(input))
+encode = meow.encode(input)
+print(encode)
+decode = meow.decode(encode)
+print(decode)
